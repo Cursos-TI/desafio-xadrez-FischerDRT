@@ -25,6 +25,7 @@ void moverRainha(int passos) {
 }
 
 int main() {
+    printf("Desafio Mestre\n");
     // Movimento da Torre (recursivo)
     printf(" Movimento da Torre \n");
     moverTorre(5);
@@ -61,7 +62,7 @@ int main() {
     printf("\n");
 
     // Movimento do Bispo com Loops Aninhados
-    printf("Movimento do Bispo\n");
+    printf("Movimento do Bispo loops aninhados\n");
     int passos_diagonais = 3; // Exemplo: 3 passos diagonais
 
     for (int b = 0; b < passos_diagonais; b++) { // Loop para movimento vertical
