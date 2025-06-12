@@ -59,8 +59,6 @@ int main() {
         printf("Direita\n");
     }
 
-    printf("\n");
-
     // Movimento do Bispo com Loops Aninhados
     printf("Movimento do Bispo loops aninhados\n");
     int passos_diagonais = 3; // Exemplo: 3 passos diagonais
