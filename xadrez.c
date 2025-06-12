@@ -1,35 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    printf("Desafio Novato!\n");
-    // Movimento da Torre
-    printf("Movimento da Torre\n");
-    int t;
-    for (t = 0; t < 5; t++) {
-        printf("Direita\n");
+    // Movimento do Cavalo
+    printf("Movimento do Cavalo\n");
+    int movimentos_para_baixo = 2;
+    int movimentos_para_esquerda = 1;
+
+    // Primeiro loop movimentos para baixo
+    for (int i = 0; i < movimentos_para_baixo; i++) {
+        printf("Baixo\n");
     }
 
-    printf("\n");
-
-    // Movimento do Bispo
-    printf("Movimento do Bispo\n");
-    int b = 0;
-    while (b < 5) {
-        printf("Cima Direita\n");
-        b++;
-    }
-
-    printf("\n");
-
-    // Movimento da Rainha 
-    printf("Movimento da Rainha\n");
-    int r = 0;
-    do {
+    // Segundo loop movimento para a esquerda
+    int c = 0;
+    while (c < movimentos_para_esquerda) {
         printf("Esquerda\n");
-        r++;
-    } while (r < 8);
-
-     printf("\n");
+        c++;
+    }
 
     return 0;
 }
