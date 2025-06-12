@@ -58,6 +58,7 @@ int main() {
     for (int c = 0; c < movimentos_para_direita; c++) {
         printf("Direita\n");
     }
+    printf("\n");
 
     // Movimento do Bispo com Loops Aninhados
     printf("Movimento do Bispo loops aninhados\n");
