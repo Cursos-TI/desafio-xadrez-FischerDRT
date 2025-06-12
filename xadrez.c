@@ -1,15 +1,7 @@
 #include <stdio.h>
 
-// Desafio de Xadrez - MateCheck
-// Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
-// O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
-
 int main() {
-    {Printf("desafio Xadrez!\n");}
-}
-    // Nível Novato - Movimentação das Peças
-    int main() {
-        {Printf("Desafio Novato!\n");}
+    printf("Desafio Novato!\n");
     // Movimento da Torre
     printf("Movimento da Torre\n");
     int t;
@@ -41,4 +33,3 @@ int main() {
 
     return 0;
 }
-
