@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Função recursiva para o movimento da Torre (para a Direita)
+// Função recursiva para o movimento da Torre
 void moverTorre(int passos) {
     if (passos > 0) {
         printf("Direita\n");
@@ -8,7 +8,7 @@ void moverTorre(int passos) {
     }
 }
 
-// Função recursiva para o movimento do Bispo (Cima Direita)
+// Função recursiva para o movimento do Bispo
 void moverBispo(int passos) {
     if (passos > 0) {
         printf("Cima Direita\n");
@@ -16,7 +16,7 @@ void moverBispo(int passos) {
     }
 }
 
-// Função recursiva para o movimento da Rainha (para a Esquerda)
+// Função recursiva para o movimento da Rainha
 void moverRainha(int passos) {
     if (passos > 0) {
         printf("Esquerda\n");
